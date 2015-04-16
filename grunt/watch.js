@@ -23,7 +23,6 @@ module.exports = {
             'dev/_layouts/*.html',
             'dev/_includes/*.html',
             'dev/_assets/ajax/*.html',
-            'dev/_assets/json/*.json',
         ],
         tasks: ['recompile']
     },
