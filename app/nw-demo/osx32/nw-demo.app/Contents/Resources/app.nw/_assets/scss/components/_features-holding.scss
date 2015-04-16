@@ -1,0 +1,52 @@
+.holding--info {
+	position: relative;
+    padding: 6em;
+    margin-top: -19em;
+    color: $color__white;
+    z-index: 10;
+
+	@include breakpoint(medium){
+        margin-top: -24em;
+    }
+
+    img { 
+    	position: absolute;
+    	left: -3em; 
+    	z-index: -1;
+
+	  	@include breakpoint(small){
+			left: -6em;
+		}
+	}
+}
+
+.holding--info-img {
+	width: 20em;
+	@include breakpoint(small){
+		width: auto;
+	}
+}
+
+.lt-ie8 .holding--info-img, .lt-ie9 .holding--info-img {
+	img { display: none; }
+	p { color: $color__pink; }
+
+	@include breakpoint(medium){
+		img { display: block; }
+		p { color: $color__white; }
+	}
+
+}
+
+.holding--info__text{
+	padding-top: 23%;
+  	max-width: 10em;
+    z-index: 1;
+	@include breakpoint(small){
+		padding-top: 32%;
+	 	max-width: 12em;
+	}
+
+}
+
+

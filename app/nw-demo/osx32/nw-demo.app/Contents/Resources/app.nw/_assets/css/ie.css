@@ -1,0 +1,58 @@
+.animated {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.lt-ie9 .large-bubble {
+  width: 14em;
+  height: 14em;
+  right: 2em;
+  padding: 1em 0 1em 1em;
+  background: url("../imgs/bubbles/bubble-large.png") no-repeat;
+}
+.lt-ie9 .cogs {
+  margin-right: 0;
+}
+.lt-ie9 .cogs__text {
+  bottom: 13em;
+  left: 10em;
+}
+.lt-ie9 .ftr {
+  height: 13em;
+}
+.lt-ie9 .ftr svg img {
+  width: 100%;
+}
+.lt-ie9 .form-fields label {
+  display: block;
+}
+
+.lt-ie8 .bubbles {
+  float: right;
+  width: 50%;
+}
+.lt-ie8 .cogs__text {
+  bottom: 18em;
+  left: 4em;
+}
+.lt-ie8 .large-bubble {
+  width: 14em;
+  height: 14em;
+  right: 0em;
+  padding: 0;
+}
+.lt-ie8 .sign-up {
+  position: relative;
+}
+.lt-ie8 .cogs__animation--signup {
+  position: absolute;
+  top: 0em;
+}
+.lt-ie8 .form-fields label {
+  display: block;
+}
+.lt-ie8 .holding--info-img img {
+  width: 30em;
+}
+
+/*# sourceMappingURL=ie.css.map */

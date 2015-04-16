@@ -1,0 +1,13 @@
+default:
+ - 'serve'
+
+serve:
+ - 'recompile'
+ - 'watch'
+
+build:
+ - 'recompile'
+ - 'nodewebkit'
+
+recompile:
+ - 'sass:dev'

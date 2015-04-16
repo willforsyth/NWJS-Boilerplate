@@ -1,0 +1,12 @@
+.hdr {
+	text-align: center;
+	margin-bottom: 1em;
+
+	h1 { margin-top: $ratio--inv#{em}; }
+}
+
+.hdr--holding {
+	@include breakpoint(small){
+		margin-bottom: 5em;
+	}
+}
