@@ -1,0 +1,19 @@
+default:
+ - 'serve'
+
+serve:
+ - 'recompile'
+ - 'watch'
+ - 'clean'
+
+build:
+ - 'nodewebkit'
+
+recompile:
+ - 'sass:dev'
+ - 'requirejs'
+ - 'copy:images'
+ - 'processhtml'
+ - 'copy:images'
+ - 'copy:fonts'
+ - 'connect'
