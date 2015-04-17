@@ -17,15 +17,6 @@ module.exports = {
             'recompile'
         ]
     },
-    jekyll: {
-        files: [
-            'dev/*.{html,md}',
-            'dev/_layouts/*.html',
-            'dev/_includes/*.html',
-            'dev/_assets/ajax/*.html',
-        ],
-        tasks: ['recompile']
-    },
     configFiles: {
         files: ['gruntfile.js', 'grunt/*.{js,yaml}'],
         options: {

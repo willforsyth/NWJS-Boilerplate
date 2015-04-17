@@ -4,10 +4,15 @@ default:
 serve:
  - 'recompile'
  - 'watch'
+ # - 'clean'
 
 build:
- - 'recompile'
+ - 'copy:dist'
  - 'nodewebkit'
 
 recompile:
  - 'sass:dev'
+ - 'copy:images'
+ - 'copy:fonts'
+ - 'copy:scripts'
+ - 'connect'
