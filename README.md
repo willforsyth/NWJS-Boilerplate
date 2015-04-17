@@ -6,13 +6,10 @@ This boilerplate uses grunt to compile your sass, sets up a development server l
 
 ## Set up
 In order to run this pattern library generator correctly you'll need to follow a couple of steps first.
-
 1. `$ npm install` — To get all the dependencies for grunt.
 2. `$ bower install` — To get all the dependencies for bower.
-
 ## Running the project
 Run `grunt` or `grunt serve` on the command line and the project will build itself, set up a server, open the index page, and wait for you to make changes. This is useful to develop your app in chrome before building out the project.
-
 ## Building the project
 Once you're happy with everything, run `grunt build` and it will compile into your app folder. 
 Navigate to the app folder in the project to view your application. 
