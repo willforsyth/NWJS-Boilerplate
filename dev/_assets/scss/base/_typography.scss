@@ -26,9 +26,9 @@ body{
         font-size: 18 / $base-font-size#{em};
         line-height: $line-height;
     }
-    // @include breakpoint(large){
-    //     font-size: 22 / $base-font-size#{em};
-    //     line-height: $line-height;
-    // }
+    @include breakpoint(large){
+        font-size: 22 / $base-font-size#{em};
+        line-height: $line-height;
+    }
 }
 
