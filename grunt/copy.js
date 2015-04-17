@@ -25,5 +25,14 @@ module.exports = {
             dest: '.tmp',
             src: 'fonts/{,*/}*.{eot,svg,ttf,woff,woff2}'
         }]
+    },
+    other: {
+        files: [{
+            expand: true,
+            dot: true,
+            cwd: 'dev',
+            dest: '.tmp',
+            src: '*.{html,json}'
+        }]
     }
 };

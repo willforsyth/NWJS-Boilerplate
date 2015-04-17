@@ -13,9 +13,8 @@ module.exports = {
     svg: {
         files: ['dev/_assets/svg/*.svg'],
         tasks: [
-            'svgstore:dev',
-            'recompile'
-        ]
+            'recompile',
+            'dev/*.html'        ]
     },
     configFiles: {
         files: ['gruntfile.js', 'grunt/*.{js,yaml}'],

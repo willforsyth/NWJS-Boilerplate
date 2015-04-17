@@ -3,7 +3,7 @@ module.exports = {
         platforms: ['win','osx'],
         buildDir: 'app',
     },
-    src: ['dev/**/*'] 
+    src: ['.tmp/**/*']
 };
 
 

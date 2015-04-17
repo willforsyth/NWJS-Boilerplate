@@ -7,7 +7,7 @@ module.exports = {
                 jquery: '../../../bower_components/jquery/dist/jquery'
             },
             name: 'main',
-            out: '/.tmp/scripts/main.js',
+            out: '.tmp/scripts/main.js',
             include: ['requireLib'],
         }
     }
