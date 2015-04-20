@@ -1,0 +1,29 @@
+%hn{
+   font-family: $heading-font;
+   font-weight: 600;
+   line-height: 1em;
+   margin: 0 0 $ratio--inv#{em};
+   -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    @extend %hn;
+    text-transform: lowercase;
+    font-family: $main-heading;
+    font-size: pow($ratio, 3)#{em};
+}
+
+h2{
+    @extend %hn;
+
+    font-size: $ratio#{em};
+}
+
+h3 { 
+  font-family: $heading-font;
+  font-size: 1.4em; 
+}
+h4{
+    @extend %hn;
+    font-size: 1 + ($ratio--inv / 2)#{em};
+}

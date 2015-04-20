@@ -1,0 +1,21 @@
+.icon{
+    display: inline-block;
+    width: $ratio#{em};
+    height: $ratio#{em};
+}
+
+.icon__facebook{
+	fill: $color__facebook;
+}
+
+.icon__twitter{
+	fill: $color__twitter;
+}
+
+.icon__linkedin{
+	fill: $color__facebook;
+}
+
+.icon__logo {
+	height: 5 + $ratio#{em};
+}
