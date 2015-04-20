@@ -1,4 +1,4 @@
-# Blank Node Webkit set up using grunt
+# Boilerplate Node Webkit set up using grunt
 
 This boilerplate uses [nw.js](http://nwjs.io/) and grunt to automate your app build.
 
